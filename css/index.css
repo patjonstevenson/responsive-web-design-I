@@ -196,7 +196,7 @@ nav a:hover {
   justify-content: space-evenly;
   width: 100%;
   padding: 5% 0% 10% 0%;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 
 .splash h1 {
@@ -226,7 +226,7 @@ nav a:hover {
 
 .middle {
   width: 100%;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
   margin-bottom: 5%;
 }
 
@@ -275,7 +275,7 @@ footer {
 
 .services {
   padding: 0% 0% 5% 0%;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
 }
 
 .serviceDescriptions {
@@ -356,7 +356,7 @@ ul {
   }
   nav a {
     width: 100%;
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid gray;
   }
 
   .splash {
@@ -367,5 +367,17 @@ ul {
 
   .splash div img {
     display: none;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .sidebyside2, .sidebyside3 {
+      width: 100%;
+      margin: 4% 0%;
+  }
+  .middle-img {
+      width: 100%;
   }
 }
