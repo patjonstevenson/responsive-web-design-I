@@ -449,6 +449,21 @@ ul {
   .middle-img {
       width: 100%;
   }
+
+  /* SERVICES PAGE */
+  .serviceDescriptions {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .service {
+    width: 100%;
+    height: 35vh;
+    
+  }
+  .service .button {
+
+  }
 }
 
 
