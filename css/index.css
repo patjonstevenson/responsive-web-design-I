@@ -332,6 +332,10 @@ ul {
   list-style-position: inside;
   list-style: disc;
 }
+.serviceList {
+  padding-left: 7%;
+  padding-top: 2%;
+}
 
 /***** MEDIA QUERIES *****/
 
@@ -461,8 +465,9 @@ ul {
     height: 35vh;
     
   }
-  .service .button {
-
+  .someFacts {
+    flex-direction: column-reverse;
+    width: 100%;
   }
 }
 
