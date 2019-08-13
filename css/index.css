@@ -388,6 +388,10 @@ ul {
   .middle-img {
       width: 100%;
   }
+
+  .serviceDescriptions{
+    margin-bottom: 2.5%;
+  }
 }
 
 /**** PHONE ****/
@@ -447,6 +451,10 @@ ul {
   }
 
   /* SERVICES PAGE */
+  .services-header-img {
+    margin-top: 2.5%
+  }
+  
   .serviceDescriptions {
     flex-direction: column;
     flex-wrap: nowrap;
@@ -460,6 +468,7 @@ ul {
   .someFacts {
     flex-direction: column-reverse;
     width: 100%;
+    margin-top: 2.5%;
   }
 }
 
